@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected research projects, including methods with software packages and applications.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [lab, methods, applications]
 horizontal: false
 ---
 
