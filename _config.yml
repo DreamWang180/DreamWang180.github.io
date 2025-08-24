@@ -2,39 +2,39 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Jens
-middle_name: 
-last_name: Hainmueller
+title: 计量经济网                 # the website title (if blank, full name will be used instead) # 网站标题（如果留空，将使用全名代替）
+first_name: 计量经济网            # 名字
+middle_name:                     # 中间名
+last_name: www.aistata.cn        # 姓氏
 # contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >                  # the ">" symbol means to ignore newlines until "footer_text:" # ">" 符号表示忽略换行符，直到下一个键出现
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
+footer_text: >                  # 页脚文本
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+  计量经济网版权所有.
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty # 关键词，用逗号分隔
+lang: cn                        # the language of your site (for example: en, fr, cn, ru, etc.) # 网站语言
+icon: ⚛️                       # the emoji used as the favicon (alternatively, provide image name in /assets/img/) # 网站图标（可使用表情符号或图片）
 
-url: https://j-hai.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+url: https://DreamWang180.github.io    # the base hostname & protocol for your site # 网站基础URL
+baseurl:                        # the subpath of your site, e.g. /blog/. Leave blank for root # 网站子路径，如/blog/，根目录留空
+last_updated: false             # set to true if you want to display last updated in the footer # 是否在页脚显示最后更新时间
+impressum_path:                 # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR # 法律声明页面路径
+back_to_top: true               # set to false to disable the back to top button # 是否启用返回顶部按钮
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md # 浅色模式下的GitHub统计卡片主题
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md # 深色模式下的GitHub统计卡片主题
 repo_trophies:
-  enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+  enabled: true                 # 是否启用GitHub成就奖杯
+  theme_light: flat             # https://github.com/ryo-ma/github-profile-trophy # 浅色模式下的奖杯主题
+  theme_dark: gitdimmed         # https://github.com/ryo-ma/github-profile-trophy # 深色模式下的奖杯主题
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -42,20 +42,20 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: true                  # 是否显示RSS图标
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-socials_in_search: true
-bib_search: true
+navbar_fixed: true              # 导航栏是否固定
+footer_fixed: true              # 页脚是否固定
+search_enabled: true            # 是否启用搜索功能
+socials_in_search: true         # 搜索结果中是否显示社交媒体图标
+bib_search: true                # 是否在搜索中包含出版物
 
 # Dimensions
-max_width: 930px
+max_width: 930px                # 页面最大宽度
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -64,9 +64,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: false            # Include Open Graph meta tags in the HTML head # 是否包含Open Graph元标签
+serve_schema_org: false         # Include Schema.org in the HTML head # 是否包含Schema.org结构化数据
+og_image:                       # The site-wide (default for all links) Open Graph preview image # 全站默认的Open Graph预览图片
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -74,22 +74,22 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+google_analytics:               # your Google Analytics measurement ID (format: G-XXXXXXXXXX) # Google Analytics测量ID
+cronitor_analytics:             # cronitor RUM analytics site ID (format: XXXXXXXXX) # Cronitor RUM分析站点ID
+pirsch_analytics:               # your Pirsch analytics site ID (length 32 characters) # Pirsch分析站点ID
+openpanel_analytics:            # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX) # Openpanel分析客户端ID
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+google_site_verification:       # your google-site-verification ID (Google Search Console) # Google搜索控制台验证ID
+bing_site_verification:         # out your bing-site-verification ID (Bing Webmaster) # Bing网站管理员验证ID
 
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
 
 newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+  enabled: false                # 是否启用新闻通讯功能
+  endpoint:                     # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT) # Loops端点URL
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
@@ -98,29 +98,29 @@ newsletter:
 
 collections:
   projects:
-    output: true
-    permalink: /:collection/:title/
+    output: true                # 是否输出项目集合
+    permalink: /:collection/:title/ # 项目页面的URL结构
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
-markdown: kramdown
-highlighter: rouge
+markdown: kramdown              # 使用的Markdown解析器
+highlighter: rouge              # 代码高亮引擎
 kramdown:
-  input: GFM
+  input: GFM                    # 使用GitHub风格的Markdown
   syntax_highlighter_opts:
-    css_class: "highlight"
+    css_class: "highlight"      # 代码高亮块的CSS类名
     span:
-      line_numbers: false
+      line_numbers: false       # 是否显示行号（行内代码）
     block:
-      line_numbers: false
-      start_line: 1
+      line_numbers: false       # 是否显示行号（代码块）
+      start_line: 1             # 起始行号
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
-exclude:
+include: ["_pages", "_scripts"] # 包含的目录
+exclude:                        # 排除的文件和目录
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -140,12 +140,12 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-keep_files:
-  - CNAME
-  - .nojekyll
+keep_files:                     # 构建后保留的文件
+  - CNAME                       # 自定义域名配置文件
+  - .nojekyll                   # 告知GitHub Pages不要使用Jekyll处理
 
 # Plug-ins
-plugins:
+plugins:                        # 使用的Jekyll插件
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
@@ -169,17 +169,17 @@ defaults:
   - scope:
       path: "assets"
     values:
-      sitemap: false
+      sitemap: false            # 资源文件不包含在站点地图中
 
 sass:
-  style: compressed
+  style: compressed             # SASS输出压缩格式
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
+  compress_javascript: false    # set to false since we are using terser as the js minifier # 禁用JavaScript压缩（使用terser代替）
   # exclude: ["robots.txt", "assets/js/search/*.js"]
 
 # -----------------------------------------------------------------------------
@@ -188,53 +188,53 @@ jekyll-minifier:
 
 terser:
   compress:
-    drop_console: true
+    drop_console: true          # 压缩时移除console语句
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Hainmueller]
-  first_name: [Jens]
+  last_name: [Hainmueller]      # 姓氏（用于引用格式）
+  first_name: [Jens]            # 名字（用于引用格式）
 
-  style: journal-of-finance
-  locale: en
+  style: journal-of-finance     # 引用样式
+  locale: en                    # 引用语言环境
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
+  source: /_bibliography/       # 参考文献文件目录
+  bibliography: papers.bib      # 参考文献文件名
+  bibliography_template: bib    # 参考文献模板
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+  bibtex_filters: [latex, smallcaps, superscript] # BibTeX过滤器
 
-  replace_strings: true
-  join_strings: true
+  replace_strings: true         # 是否替换字符串
+  join_strings: true            # 是否连接字符串
 
-  details_dir: bibliography
-  details_link: Details
+  details_dir: bibliography     # 详细信息目录
+  details_link: Details         # 详细信息链接文本
 
-  query: "@*"
+  query: "@*"                   # 查询所有条目
   #group_by: type, year
-  group_by: type
-  group_order: ascending
+  group_by: type                # 按类型分组
+  group_order: ascending        # 分组顺序
 
-  sort_by: year
-  order: descending
-type_order: [article, inbook, book, unpublished, misc, report, conference, incollections, inproceedings, proceedings]
-type_names: {unpublished: working papers, report: reports, article: journal articles, inproceedings: conference articles & others}
+  sort_by: year                 # 按年份排序
+  order: descending             # 排序顺序
+type_order: [article, inbook, book, unpublished, misc, report, conference, incollections, inproceedings, proceedings] # 类型顺序
+type_names: {unpublished: working papers, report: reports, article: journal articles, inproceedings: conference articles & others} # 类型显示名称
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: true               # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html) # Altmetric徽章
+  dimensions: true              # Dimensions badge (Customization options: https://badge.dimensions.ai/) # Dimensions徽章
+  google_scholar: true          # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html) # 谷歌学术徽章
+  inspirehep: true              # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/) # Inspire HEP徽章
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords:
+filtered_bibtex_keywords:       # 从BibTeX输出中过滤的内部关键词
   [
     abbr,
     abstract,
@@ -261,11 +261,11 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: # 3 # leave blank to always show all authors
-more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+max_author_limit:               # 3 # leave blank to always show all authors # 显示作者的最大数量（留空显示所有作者）
+more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation # 显示更多作者时的动画延迟
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+enable_publication_thumbnails: true # 是否启用出版物缩略图
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
@@ -273,10 +273,10 @@ enable_publication_thumbnails: true
 
 # These are the defaults
 external_links:
-  enabled: true
-  rel: external nofollow noopener
-  target: _blank
-  exclude:
+  enabled: true                 # 是否启用外部链接属性
+  rel: external nofollow noopener # 外部链接的rel属性
+  target: _blank                # 外部链接的打开方式
+  exclude:                      # 排除的链接
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -285,21 +285,21 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
-  widths:
+  enabled: true                 # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537) # 是否启用响应式图片
+  widths:                       # 生成的图片宽度
     - 480
     - 800
     - 1400
-  input_directories:
+  input_directories:            # 输入目录
     - assets/img/
-  input_formats:
+  input_formats:                # 输入格式
     - ".jpg"
     - ".jpeg"
     - ".png"
     - ".tiff"
     - ".gif"
-  output_formats:
-    webp: "-quality 85"
+  output_formats:               # 输出格式
+    webp: "-quality 85"         # WebP质量设置
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
@@ -307,27 +307,27 @@ imagemagick:
 #   You can also set loading="" to other values for specific images to override the default behavior.
 #   Options: "auto", "eager", "lazy"
 #   See https://web.dev/browser-level-image-lazy-loading/ for more information.
-lazy_loading_images: true # enables lazy loading of images (recommended)
+lazy_loading_images: true       # enables lazy loading of images (recommended) # 是否启用图片懒加载
 
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
-enable_cronitor_analytics: false # enables cronitor RUM analytics
-enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
-enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
-enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
-enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
-enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
-enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
+enable_google_analytics: false  # enables google analytics # 是否启用Google Analytics
+enable_cronitor_analytics: false # enables cronitor RUM analytics # 是否启用Cronitor RUM分析
+enable_pirsch_analytics: false  # enables Pirsch analytics (https://pirsch.io/) # 是否启用Pirsch分析
+enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/) # 是否启用Openpanel分析
+enable_google_verification: false # enables google site verification # 是否启用Google验证
+enable_bing_verification: false # enables bing site verification # 是否启用Bing验证
+enable_masonry: true            # enables automatic project cards arrangement # 是否启用瀑布流布局
+enable_math: true               # enables math typesetting (uses MathJax) # 是否启用数学公式渲染
+enable_tooltips: false          # enables automatic tooltip links generated for each section titles on pages and posts # 是否启用章节标题提示
+enable_darkmode: true           # enables switching between light/dark modes # 是否启用暗黑模式
+enable_navbar_social: false     # enables displaying social links in the navbar on the about page # 是否在导航栏显示社交媒体链接
+enable_project_categories: true # enables categorization of projects into multiple categories # 是否启用项目分类
+enable_medium_zoom: true        # enables image zoom feature (as on medium.com) # 是否启用图片缩放功能
+enable_progressbar: true        # enables a horizontal progress bar linked to the vertical scroll position # 是否启用进度条
+enable_video_embedding: false   # enables video embedding for bibtex entries. If false, the button opens the video link in a new window. # 是否启用视频嵌入
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -337,8 +337,8 @@ enable_video_embedding: false # enables video embedding for bibtex entries. If f
 # The integrity hash is used to ensure that the library is not tampered with.
 # Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
 third_party_libraries:
-  download: false # if true, download the versions of the libraries specified below and use the downloaded files
-  bootstrap-table:
+  download: false               # if true, download the versions of the libraries specified below and use the downloaded files # 是否下载第三方库
+  bootstrap-table:              # Bootstrap表格库配置
     integrity:
       css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
       js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
@@ -346,19 +346,19 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
       js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
     version: "1.22.4"
-  chartjs:
+  chartjs:                      # Chart.js图表库配置
     integrity:
       js: "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
     url:
       js: "https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js"
     version: "4.4.1"
-  d3:
+  d3:                           # D3.js数据可视化库配置
     integrity:
       js: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
     url:
       js: "https://cdn.jsdelivr.net/npm/d3@{{version}}/dist/d3.min.js"
     version: "7.8.5"
-  diff2html:
+  diff2html:                    # Diff转HTML库配置
     integrity:
       css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
       js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
@@ -366,7 +366,7 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/css/diff2html.min.css"
       js: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/js/diff2html-ui.min.js"
     version: "3.4.47"
-  echarts:
+  echarts:                      # ECharts图表库配置
     integrity:
       js:
         library: "sha256-QvgynZibb2U53SsVu98NggJXYqwRL7tg3FeyfXvPOUY="
@@ -376,10 +376,10 @@ third_party_libraries:
         library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
         dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
     version: "5.5.0"
-  google_fonts:
+  google_fonts:                 # Google字体配置
     url:
       fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
-  highlightjs:
+  highlightjs:                  # 代码高亮库配置
     integrity:
       css:
         light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
@@ -389,13 +389,13 @@ third_party_libraries:
         light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
         dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
     version: "11.9.0"
-  imagesloaded:
+  imagesloaded:                 # 图片加载检测库配置
     integrity:
       js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
     url:
       js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
     version: "5.0.0"
-  img-comparison-slider:
+  img-comparison-slider:        # 图片对比滑块库配置
     integrity:
       css: "sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8="
       js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
@@ -405,13 +405,13 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
       map: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
     version: "8.0.6"
-  jquery:
+  jquery:                       # jQuery库配置
     integrity:
       js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     url:
       js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
     version: "3.6.0"
-  leaflet:
+  leaflet:                      # Leaflet地图库配置
     integrity:
       css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
       js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
@@ -424,7 +424,7 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
     version: "1.9.4"
-  lightbox2:
+  lightbox2:                    # Lightbox2灯箱库配置
     integrity:
       css: "sha256-uypRbsAiJcFInM/ndyI/JHpzNe6DtUNXaWEUWEPfMGo="
       js: "sha256-A6jI5V9s1JznkWwsBaRK8kSeXLgIqQfxfnvdDOZEURY="
@@ -432,7 +432,7 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/css/lightbox.min.css"
       js: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/js/lightbox.min.js"
     version: "2.11.5"
-  mathjax:
+  mathjax:                      # MathJax数学公式库配置
     integrity:
       js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
     local:
@@ -441,13 +441,13 @@ third_party_libraries:
       fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
       js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
     version: "3.2.2"
-  masonry:
+  masonry:                      # Masonry瀑布流布局库配置
     integrity:
       js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
     url:
       js: "https://cdn.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
     version: "4.2.2"
-  mdb:
+  mdb:                          # MDBootstrap库配置
     integrity:
       css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
       css_map: "sha256-iYYMNfsJdVZjvsebJulg09miBXM4/GMTJgv1u5EZFFM="
@@ -459,36 +459,36 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
     version: "4.20.0"
-  medium_zoom:
+  medium_zoom:                  # Medium风格图片缩放库配置
     integrity:
       js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
     url:
       js: "https://cdn.jsdelivr.net/npm/medium-zoom@{{version}}/dist/medium-zoom.min.js"
     version: "1.1.0"
-  mermaid:
+  mermaid:                      # Mermaid图表库配置
     integrity:
       js: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
     url:
       js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
     version: "10.7.0"
-  photoswipe:
+  photoswipe:                   # PhotoSwipe图片画廊库配置
     integrity:
       js: "sha256-VCBpdxvrNNxGHNuTdNqK9kPFkev2XY7DYzHdmgaB69Q="
     url:
       css: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.min.css"
       js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.esm.min.js"
     version: "5.4.4"
-  photoswipe-lightbox:
+  photoswipe-lightbox:          # PhotoSwipe灯箱库配置
     integrity:
       js: "sha256-uCw4VgT5DMdwgtjhvU9e98nT2mLZXcw/8WkaTrDd3RI="
     url:
       js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
     version: "5.4.4"
-  polyfill:
+  polyfill:                     # Polyfill库配置
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
     version: "3"
-  pseudocode:
+  pseudocode:                   # 伪代码渲染库配置
     integrity:
       css: "sha256-VwMV//xgBPDyRFVSOshhRhzJRDyBmIACniLPpeXNUdc="
       js: "sha256-aVkDxqyzrB+ExUsOY9PdyelkDhn/DfrjWu08aVpqNlo="
@@ -496,14 +496,14 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
       js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
     version: "2.4.1"
-  spotlight:
+  spotlight:                    # Spotlight聚焦效果库配置
     integrity:
       css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="
     url:
       css: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/css/spotlight.min.css"
       js: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
     version: "0.7.8"
-  swiper:
+  swiper:                       # Swiper轮播图库配置
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
       js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
@@ -513,13 +513,13 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js"
       map: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js.map"
     version: "11.0.5"
-  swiper-map:
+  swiper-map:                   # Swiper地图库配置
     integrity:
       js: "sha256-hlZaH8ySXX97bZaetnrtYlKuhx3oEXFz/s2IXchu6vk="
     url:
       js: "https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-element-bundle.min.js.map"
     version: "11.0.5"
-  vega:
+  vega:                         # Vega可视化库配置
     integrity:
       js: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
       js_map: "sha256-z0x9ICA65dPkZ0JVa9wTImfF6n7AJsKc6WlFE96/wNA="
@@ -527,7 +527,7 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/vega@{{version}}/build/vega.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/vega@{{version}}/build/vega.min.js.map"
     version: "5.27.0"
-  vega-embed:
+  vega-embed:                   # Vega嵌入库配置
     integrity:
       js: "sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU="
       js_map: "sha256-VBbfSEFYSMdX/rTdGrONEHNP6BprCB7H/LpMMNt/cPA="
@@ -535,7 +535,7 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/vega-embed@{{version}}/build/vega-embed.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/vega-embed@{{version}}/build/vega-embed.min.js.map"
     version: "6.24.0"
-  vega-lite:
+  vega-lite:                    # Vega-Lite可视化库配置
     integrity:
       js: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
       js_map: "sha256-l2I4D5JC23Ulsu6e3sKVe5AJ+r+DFkzkKnZS8nUGz28="
@@ -543,7 +543,7 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
     version: "5.16.3"
-  venobox:
+  venobox:                      # Venobox灯箱库配置
     integrity:
       css: "sha256-ohJEB0/WsBOdBD+gQO/MGfyJSbTUI8OOLbQGdkxD6Cg="
       js: "sha256-LsGXHsHMMmTcz3KqTaWvLv6ome+7pRiic2LPnzTfiSo="
